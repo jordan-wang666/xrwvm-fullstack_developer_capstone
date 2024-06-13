@@ -5,6 +5,8 @@
 # from django.contrib.auth.models import User
 # from django.shortcuts import get_object_or_404, render, redirect
 from django.contrib.auth import logout
+
+from server.djangoapp.populate import initiate
 from .models import CarMake, CarModel
 
 # from django.contrib import messages
